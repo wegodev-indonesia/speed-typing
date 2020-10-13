@@ -1,0 +1,34 @@
+body{
+    font-family: Arial;
+    background: #f1f1f1;
+}
+
+#game{
+    width: 350px;
+    margin:0px auto;
+}
+
+#word{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#input{
+    width:100%;
+    background: transparent;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+}
+
+.wrong{
+    color: red;
+}
+
+.correct{
+    color:green;
+}
